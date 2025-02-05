@@ -1,0 +1,16 @@
+Create a program to solve a quadratic equation and display the real roots (if any).
+
+START
+    1. Input a, b, c
+    2. Compute discriminant D = b^2 - 4ac
+    3. If D > 0:
+        a. Compute x1 = (-b + sqrt(D)) / (2a)
+        b. Compute x2 = (-b - sqrt(D)) / (2a)
+        c. Print "Two real roots:", x1, x2
+    4. Else if D = 0:
+        a. Compute x = -b / (2a)
+        b. Print "One real root:", x
+    5. Else:
+        a. Print "No real roots"
+END
+
